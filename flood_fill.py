@@ -8,7 +8,7 @@ def flood_fill(matrix, x, y, new_color):
     print(f"--> Новий колір (колір заливки): '{new_color}'")
 
     if old_color == new_color:
-        print("--> СТОП: Кольори однакові! Матриця не потребує змін.")
+        print("--> СТОП: Кольори однакові, матриця не потребує змін.")
         return matrix
 
     stack = [(x, y)]
